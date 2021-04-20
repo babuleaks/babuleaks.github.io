@@ -11,7 +11,10 @@ body{
 }
 
 .navbar-container{
+    top: 0;
     background-color: #7952B3;
+    position: sticky;
+    z-index: 2;
 }
 
 .about-container{
@@ -31,4 +34,22 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 70px;
+}
+
+.project{
+    background-color: brown;
+}
+
+
+.protfolio{
+    background-color: cadetblue;
+}
+
+
+.form-container{
+    background-color: cornflowerblue;
+}
+
+.butcolor{
+    background-color: crimson;
 }
